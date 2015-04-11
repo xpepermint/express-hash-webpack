@@ -1,0 +1,31 @@
+{
+  "name": "express-hash-webpack",
+  "version": "0.0.1",
+  "description": "Webpack asset pipeline helpers for ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xpepermint/express-hash-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "express",
+    "asset",
+    "assets",
+    "pipeline",
+    "middleware",
+    "path",
+    "fingerprint",
+    "hash",
+    "precompile"
+  ],
+  "author": "Xpepermint",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpepermint/express-hash-webpack/issues"
+  },
+  "homepage": "https://github.com/xpepermint/express-hash-webpack"
+}
