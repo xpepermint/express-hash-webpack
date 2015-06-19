@@ -11,7 +11,7 @@ module.exports = function(options) {
   var cachedHashValues = {}; // per dynamicPath
   var cachedAssetPaths = {}; // per assetPath
 
-  var cacheEnabled = options.cache || false; // when true, helpers will return cached data
+  var cacheEnabled = options.cache || process.NODE_ENV === 'production'; // when true, helpers will return cached data
 
   return function(req, res, next) {
 

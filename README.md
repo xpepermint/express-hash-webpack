@@ -27,7 +27,7 @@ app.use(assets({
     var locale = 'en.';
     return 'http://localhost:8080[path]' + locale + '[name][hash][ext]';
   },
-  cache: false
+  cache: true
 }));
 ```
 
@@ -63,4 +63,4 @@ html(lang="en")
 
 ### cache: Boolean
 
-> Cache results.
+> Cache results (default to tru in production).
